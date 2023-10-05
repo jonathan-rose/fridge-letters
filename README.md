@@ -1,32 +1,16 @@
-# alphabet
+# Fridge Letters
 
-FIXME: description
+Challenge to determine whether a sentence is composable from a limited set of fridge magnet letters.
 
-## Installation
+Written in Clojure using Leiningen.
 
-Download from http://example.com/FIXME.
+Function (leftover-letters) takes two arguments: a string of available letters and a string to test.
 
-## Usage
+If insufficient letters are available, it will return a message stating so. If sufficient letters are available, it will state the letters remaining.
 
-FIXME: explanation
+## Example
 
-    $ java -jar alphabet-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+(leftover-letters fridge test-letters)
 
 ## License
 
